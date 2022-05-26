@@ -1,0 +1,62 @@
+2022-05-26T00:28:43.874Z [store-api] error POST  - Nome, tipo e proprietário do animal são obrigatórios!
+2022-05-26T00:29:08.148Z [store-api] error POST  - relation "clients" does not exist
+2022-05-26T00:30:31.752Z [store-api] error POST  - invalid input syntax for integer: "Ana Carolina"
+2022-05-26T00:31:58.622Z [store-api] error POST  - ProprietarioRepository.criarProprietario is not a function
+2022-05-26T00:32:47.301Z [store-api] error POST  - column "telefone" of relation "animais" does not exist
+2022-05-26T00:33:50.680Z [store-api] info POST /proprietario - {"nome":"Ana Carolina","telefone":"01130049680"}
+2022-05-26T00:33:59.337Z [store-api] info POST /proprietario - {"nome":"Vagner","telefone":"01130049680"}
+2022-05-26T00:34:31.196Z [store-api] info POST /animal - {"nome":"Feijão","tipo":"Salsicha","proprietarioId":1}
+2022-05-26T00:34:51.565Z [store-api] info POST /animal - {"nome":"Dory","tipo":"Labrador","proprietarioId":2}
+2022-05-26T00:38:34.955Z [store-api] info PUT /animal - {"animalId":2,"nome":"Dory","tipo":"Cachorro","proprietarioId":2}
+2022-05-26T00:39:30.847Z [store-api] info PUT /animal - {"animalId":2,"nome":"Doralice","tipo":"Cachorro"}
+2022-05-26T00:39:45.369Z [store-api] info GET /animais
+2022-05-26T00:40:02.490Z [store-api] info POST /animal - {"nome":"Bolota","tipo":"Labrador","proprietarioId":2}
+2022-05-26T00:40:14.154Z [store-api] info GET /animais
+2022-05-26T00:40:29.984Z [store-api] info PUT /animal - {"animalId":1,"nome":"Feijão","tipo":"Cachorro"}
+2022-05-26T00:40:35.242Z [store-api] info GET /animais
+2022-05-26T00:40:48.419Z [store-api] info POST /proprietario - {"nome":"Angela","telefone":"01130049680"}
+2022-05-26T00:41:02.423Z [store-api] info POST /animal - {"nome":"Menino","tipo":"Vira-lata","proprietarioId":3}
+2022-05-26T00:41:24.524Z [store-api] info GET /animais
+2022-05-26T00:41:36.124Z [store-api] info PUT /animal - {"animalId":4,"nome":"Menino","tipo":"Cachorro"}
+2022-05-26T00:41:40.466Z [store-api] info GET /animais
+2022-05-26T00:42:02.246Z [store-api] info PUT /animal - {"animalId":3,"nome":"Bolota","tipo":"Cachorro"}
+2022-05-26T00:42:04.202Z [store-api] info GET /animais
+2022-05-26T00:42:37.032Z [store-api] info GET /animal
+2022-05-26T00:42:41.409Z [store-api] info GET /animal
+2022-05-26T00:42:49.324Z [store-api] info POST /animal - {"nome":"FDP","tipo":"Vira-lata","proprietarioId":3}
+2022-05-26T00:43:49.903Z [store-api] info DELETE /animal
+2022-05-26T00:50:13.639Z [store-api] info GET /animais
+2022-05-26T00:50:19.028Z [store-api] info GET /animais
+2022-05-26T00:50:25.747Z [store-api] info GET /animais
+2022-05-26T00:54:24.147Z [store-api] info GET /animais
+2022-05-26T01:37:18.278Z [store-api] info PUT /proprietario - {"proprietarioId":3,"nome":"Angela 3","telefone":"01130049680"}
+2022-05-26T01:37:51.601Z [store-api] error GET  - ProprietarioRepository.consultarAnimais is not a function
+2022-05-26T01:40:50.421Z [store-api] error GET  - ProprietarioRepository.consultarProprietarios is not a function
+2022-05-26T01:41:45.198Z [store-api] info GET /proprietarios
+2022-05-26T01:42:04.082Z [store-api] info PUT /proprietario - {"proprietarioId":3,"nome":"Angela","telefone":"01130049680"}
+2022-05-26T01:42:40.253Z [store-api] info GET /proprietario
+2022-05-26T01:42:44.919Z [store-api] info GET /proprietario
+2022-05-26T01:42:56.307Z [store-api] info POST /proprietario - {"nome":"cuzão do caralho","telefone":"01130049680"}
+2022-05-26T01:43:22.534Z [store-api] info DELETE /proprietario
+2022-05-26T01:43:28.843Z [store-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-05-26T01:43:41.846Z [store-api] info DELETE /proprietario
+2022-05-26T01:43:48.186Z [store-api] error DELETE  - Cannot read properties of null (reading 'length')
+2022-05-26T01:43:58.775Z [store-api] info GET /proprietarios
+2022-05-26T01:44:20.831Z [store-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "fk_proprietarios" on table "animais"
+2022-05-26T01:44:37.054Z [store-api] info POST /proprietario - {"nome":"cuzão do caralho","telefone":"01130049680"}
+2022-05-26T01:44:41.154Z [store-api] info GET /proprietarios
+2022-05-26T01:44:45.965Z [store-api] info GET /proprietario
+2022-05-26T01:44:52.995Z [store-api] error DELETE  - Cannot read properties of null (reading 'length')
+2022-05-26T01:44:59.906Z [store-api] info GET /proprietario
+2022-05-26T01:47:07.602Z [store-api] info GET /proprietario
+2022-05-26T01:47:11.435Z [store-api] error DELETE  - Cannot read properties of null (reading 'length')
+2022-05-26T01:48:26.472Z [store-api] info GET /proprietario
+2022-05-26T01:48:29.877Z [store-api] info DELETE /proprietario
+2022-05-26T01:48:33.819Z [store-api] info GET /proprietario
+2022-05-26T01:48:37.710Z [store-api] info GET /proprietarios
+2022-05-26T01:50:53.340Z [store-api] info POST /proprietario - {"nome":"cuzão do caralho","telefone":"01130049680"}
+2022-05-26T01:50:58.686Z [store-api] info GET /proprietario
+2022-05-26T01:51:03.730Z [store-api] error DELETE  - AnimalRepository.consultarProprietarioPeloProprietario is not a function
+2022-05-26T01:51:16.716Z [store-api] info DELETE /proprietario
+2022-05-26T01:51:21.771Z [store-api] info GET /proprietario
+2022-05-26T01:51:30.001Z [store-api] error DELETE  - Não é possível excluir esse proprietário, pois ele possui animais cadastro conosco.
