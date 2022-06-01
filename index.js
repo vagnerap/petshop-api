@@ -3,6 +3,8 @@ import cors from "cors";
 import winston from "winston";
 import animalRouter from "./routes/animal.route.js";
 import proprietarioRoute from "./routes/proprietario.route.js";
+import servicoRoute from "./routes/servico.route.js";
+import blogRoute from "./routes/blog.route.js";
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -26,10 +28,12 @@ app.use(express.json());
 app.use(cors());
 app.use("/animal", animalRouter);
 app.use("/proprietario", proprietarioRoute);
+app.use("/servico", servicoRoute);
+app.use("/post", blogRoute);
 
 app.use((err, req, res, next) => {
   logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
   res.status(400).send({ error: err.message });
 });
 
-app.listen(3000, () => console.log("API Started!"));
+app.listen(5000, () => console.log("API Started!"));

@@ -60,3 +60,74 @@
 2022-05-26T01:51:16.716Z [store-api] info DELETE /proprietario
 2022-05-26T01:51:21.771Z [store-api] info GET /proprietario
 2022-05-26T01:51:30.001Z [store-api] error DELETE  - Não é possível excluir esse proprietário, pois ele possui animais cadastro conosco.
+2022-05-26T21:01:49.778Z [store-api] info GET /animais
+2022-05-26T21:07:53.633Z [store-api] info GET /animal
+2022-05-26T21:08:47.847Z [store-api] info GET /animais
+2022-05-26T21:09:24.705Z [store-api] info GET /proprietarios
+2022-05-26T21:14:23.039Z [store-api] info GET /animais
+2022-05-26T21:16:05.119Z [store-api] error POST  - Nome, tipo e proprietário do animal são obrigatórios!
+2022-05-26T21:16:12.673Z [store-api] info POST /animal - {"nome":"Totó","tipo":"Cachorro","proprietarioId":6}
+2022-05-26T21:16:36.734Z [store-api] info GET /animais
+2022-05-26T21:17:00.159Z [store-api] info GET /animais
+2022-05-26T21:17:14.134Z [store-api] info GET /proprietario
+2022-05-26T21:18:02.558Z [store-api] info GET /animal
+2022-05-26T21:18:08.267Z [store-api] info GET /proprietario
+2022-05-26T21:18:48.431Z [store-api] info DELETE /animal
+2022-05-26T21:18:55.452Z [store-api] info GET /animais
+2022-05-26T21:19:23.214Z [store-api] info GET /animais
+2022-05-26T21:25:47.063Z [store-api] info GET /proprietario
+2022-05-28T02:44:59.030Z [store-api] info GET /animais
+2022-05-28T02:45:48.203Z [store-api] info POST /servico {"descricao":"Banho","valor":30,"animalId":2}
+2022-05-28T02:45:57.315Z [store-api] info POST /servico {"descricao":"Banho","valor":30,"animalId":2}
+2022-05-28T02:46:35.972Z [store-api] info GET /sales
+2022-05-28T02:47:06.434Z [store-api] info GET /sales
+2022-05-30T23:07:11.356Z [store-api] info GET /sales
+2022-05-30T23:09:40.633Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:10:56.843Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:10:59.220Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:11:00.162Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:11:01.393Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:11:02.359Z [store-api] info POST /post - {"titulo":"Post 1 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-30T23:11:46.885Z [store-api] info GET /post
+2022-05-31T00:32:38.621Z [store-api] info GET /post
+2022-05-31T00:35:25.350Z [store-api] info GET /post
+2022-05-31T00:36:10.360Z [store-api] info GET /get
+2022-05-31T00:37:32.704Z [store-api] info POST /post - {"titulo":"Post 2 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-31T00:37:51.103Z [store-api] info POST /post - {"titulo":"Post 2 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-31T00:37:52.038Z [store-api] info POST /post - {"titulo":"Post 2 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-31T00:37:55.969Z [store-api] info POST /post - {"titulo":"Post 2 - Teste","conteudo":"Teste Teste Teste Teste Teste Teste Teste Teste ","comentarios":[]}
+2022-05-31T00:38:18.992Z [store-api] info GET /get
+2022-05-31T00:45:02.760Z [store-api] error POST  - Nome e conteudo são obrigatórios.
+2022-05-31T00:46:13.386Z [store-api] error POST  - Nome e conteudo são obrigatórios.
+2022-05-31T00:47:03.136Z [store-api] error POST  - Nome e conteudo são obrigatórios.
+2022-05-31T00:47:15.565Z [store-api] info POST /comentario
+2022-05-31T00:47:42.799Z [store-api] info POST /comentario
+2022-05-31T00:47:46.687Z [store-api] info POST /comentario
+2022-05-31T00:48:07.216Z [store-api] info POST /comentario
+2022-05-31T00:50:03.793Z [store-api] info POST /comentario
+2022-05-31T01:03:35.986Z [store-api] info GET /get
+2022-05-31T01:03:49.463Z [store-api] info GET /get
+2022-05-31T01:10:08.340Z [store-api] info GET /get
+2022-05-31T01:10:20.945Z [store-api] info GET /get
+2022-05-31T01:19:43.268Z [store-api] info GET /get
+2022-05-31T01:20:44.844Z [store-api] info POST /comentario
+2022-05-31T01:21:07.386Z [store-api] info POST /comentario
+2022-05-31T01:30:25.390Z [store-api] info POST /comentario
+2022-05-31T01:44:52.315Z [store-api] info POST /comentario
+2022-05-31T01:52:48.461Z [store-api] info POST /comentario
+2022-05-31T01:58:45.061Z [store-api] info GET /get
+2022-05-31T02:00:22.770Z [store-api] info POST /post - {"titulo":"Agora eu sei que está certo","conteudo":"Agora eu sei que está tudo certo, amém, graças a deus pai , obrigado meu deus","comentarios":[]}
+2022-05-31T02:00:51.736Z [store-api] info POST /comentario
+2022-05-31T02:11:30.450Z [store-api] info GET /sales
+2022-05-31T02:13:16.305Z [store-api] info POST /servico {"descricao":"Consulta","valor":200,"animalId":5}
+2022-05-31T02:13:46.585Z [store-api] info GET /sales
+2022-05-31T02:13:59.952Z [store-api] info GET /sales
+2022-05-31T02:14:17.892Z [store-api] info GET /sales
+2022-05-31T02:14:56.887Z [store-api] info GET /sales
+2022-05-31T02:15:30.835Z [store-api] info GET /animal
+2022-05-31T02:15:47.053Z [store-api] info GET /proprietario
+2022-05-31T02:16:12.500Z [store-api] info GET /animal
+2022-05-31T02:17:11.106Z [store-api] info GET /sales
+2022-05-31T02:17:25.769Z [store-api] info GET /sales
+2022-05-31T02:21:28.081Z [store-api] info GET /sales
+2022-05-31T02:21:56.485Z [store-api] info GET /animal
